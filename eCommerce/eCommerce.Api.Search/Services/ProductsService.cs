@@ -37,7 +37,7 @@ namespace eCommerce.Api.Search.Services
                 return (false, null, response.ReasonPhrase);
             }
             catch(Exception ex)
-            {
+            {//ho
                 _logger.LogError(ex.Message);
                 return (false, null, ex.Message);
             }
